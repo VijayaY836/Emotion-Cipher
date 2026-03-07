@@ -17,6 +17,7 @@ export default function Home() {
   const [emotions, setEmotions] = useState<EmotionVector | null>(null);
   const [encryptedPacket, setEncryptedPacket] = useState<EncryptedPacket | null>(null);
   const [decryptionResult, setDecryptionResult] = useState<DecryptionResult | null>(null);
+  const [useImageBg, setUseImageBg] = useState(true);
 
   const handleEncryptStart = () => {
     setScreen('analyzing');
@@ -49,7 +50,22 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen relative overflow-hidden">
+    <main className={`min-h-screen relative overflow-hidden ${useImageBg ? 'bg-image' : 'bg-gradient'}`}>
+      {/* Background Toggle Button */}
+      <motion.button
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.6 }}
+        onClick={() => setUseImageBg(!useImageBg)}
+        className="fixed top-8 right-8 z-50 bg-toggle-button px-5 py-3 text-sm font-semibold flex items-center gap-2 shadow-xl hover:shadow-2xl transition-all duration-300"
+        title={useImageBg ? "Switch to Gradient" : "Switch to Image"}
+      >
+        <span className="text-xl">{useImageBg ? '🎨' : '🖼️'}</span>
+        <span className="hidden sm:inline text-white">
+          {useImageBg ? 'Gradient' : 'Image'}
+        </span>
+      </motion.button>
+
       {/* Animated background particles */}
       <div className="particles">
         {[...Array(20)].map((_, i) => (
