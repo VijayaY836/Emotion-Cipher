@@ -11,7 +11,8 @@ EMOTION CIPHER aims to bridge the gap between encryption and emotional intellige
 1. **Fork the repository**
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/emotion-cipher.git
+   git clone git https://github.com/VijayaY836/Emotion-Cipher.git
+t
    cd emotion-cipher
    ```
 3. **Set up development environment**:
