@@ -7,7 +7,8 @@
 ![License](https://img.shields.io/badge/license-MIT-purple.svg)
 ![AI](https://img.shields.io/badge/AI-Powered-ff1493.svg)
 
-Demo Video: https://drive.google.com/file/d/1TJOLGqgeUEgi3BdOlfjnLmZ_bgH0YZvh/view?usp=drive_link
+Demo Video (main): https://drive.google.com/file/d/1TJOLGqgeUEgi3BdOlfjnLmZ_bgH0YZvh/view?usp=drive_link
+Specified sample prompts: https://drive.google.com/file/d/1bv7AqpDXti0Gx7fFod_QqHXDC3LsGoSY/view?usp=sharing
 
 **Encrypt your messages with emotions. Decrypt with feelings.**
 
