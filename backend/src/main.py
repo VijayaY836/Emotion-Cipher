@@ -66,7 +66,11 @@ app.add_middleware(
         "http://localhost:3000", 
         "http://127.0.0.1:3000",
         "http://localhost:4000",
-        "http://127.0.0.1:4000"
+        "http://127.0.0.1:4000",
+        "https://*.vercel.app",  # Allow all Vercel deployments
+        "https://vercel.app",
+        # Add your specific Vercel domain here:
+        # "https://your-app-name.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
