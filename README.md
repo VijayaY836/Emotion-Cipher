@@ -7,6 +7,10 @@
 ![License](https://img.shields.io/badge/license-MIT-purple.svg)
 ![AI](https://img.shields.io/badge/AI-Powered-ff1493.svg)
 
+Demo Video (main): https://drive.google.com/file/d/1TJOLGqgeUEgi3BdOlfjnLmZ_bgH0YZvh/view?usp=drive_link
+Demo Video of sample prompts: https://drive.google.com/file/d/1bv7AqpDXti0Gx7fFod_QqHXDC3LsGoSY/view?usp=drive_link
+Deployment Link: https://emotion-cipher-ms24gr64f-24wh1a05l2-9870s-projects.vercel.app/
+
 **Encrypt your messages with emotions. Decrypt with feelings.**
 
 A revolutionary privacy-preserving communication system that combines cutting-edge AI emotion detection with military-grade AES-256 encryption. EMOTION CIPHER doesn't just encrypt your messages—it captures and preserves their emotional essence, creating a unique fusion of security and empathy.
