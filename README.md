@@ -14,7 +14,7 @@ Specified sample prompts: https://drive.google.com/file/d/1bv7AqpDXti0Gx7fFod_Qq
 
 A revolutionary privacy-preserving communication system that combines cutting-edge AI emotion detection with military-grade AES-256 encryption. EMOTION CIPHER doesn't just encrypt your messages—it captures and preserves their emotional essence, creating a unique fusion of security and empathy.
 
-Built for hackathons. Designed to win. 🏆
+
 
 [Quick Start](QUICKSTART.md) • [Architecture](ARCHITECTURE.md) • [Demo Script](DEMO.md) • [Deployment Guide](DEPLOYMENT.md)
 
