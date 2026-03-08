@@ -27,11 +27,13 @@ class EmotionDetector:
     
     @lru_cache(maxsize=1)
     def _load_model(self):
-        """Load and cache HuggingFace model"""
+        """Load and cache HuggingFace model with memory optimization"""
         try:
             model = AutoModelForSequenceClassification.from_pretrained(
                 self.MODEL_NAME,
-                cache_dir="./models"
+                cache_dir="./models",
+                torch_dtype=torch.float16,  # Use half precision - saves 50% memory
+                low_cpu_mem_usage=True      # Optimize CPU memory usage
             )
             tokenizer = AutoTokenizer.from_pretrained(
                 self.MODEL_NAME,
